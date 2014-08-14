@@ -29,8 +29,8 @@ class basepackages {
   package { "elinks": }
   package { "sysstat": }
   package { "rrdtool": }
-  package { "rar":  require => Class["apt"] }
-  package { "unrar":  require => Class["apt"] }
+  package { "rar":  require => Class["apt_puppetlabs"] }
+  package { "unrar":  require => Class["apt_puppetlabs"] }
   package { "ssl-cert": }
   package { "lsof": }
   package { "nsca": }
